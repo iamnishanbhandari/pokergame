@@ -1,0 +1,46 @@
+.Homepage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);; /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    font-family: 'Ubuntu Mono', monospace;
+    color: #fff; /* White text color */
+    overflow: hidden;
+}
+
+.Homepage .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2); /* Glassy background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.Homepage .heading {
+    margin: 1rem 0;
+    text-align: center;
+    color: #fff;
+}
+
+.Homepage .signIn, .Homepage .signUp, .Homepage .gameCodeModal, .Homepage .waitingButton {
+    width: 100%;
+    max-width: 300px; /* Width of the components */
+    margin: 0.5rem auto;
+    background: rgba(255, 255, 255, 0.3); /* Glassy effect for components */
+    border-radius: 8px; /* Rounded corners for components */
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.Homepage .waitingButton {
+    background: rgba(0, 123, 255, 0.5); /* Button color with transparency */
+    color: white; /* Text color for button */
+}
+
+.Homepage .waitingButton:hover {
+    background: rgba(0, 123, 255, 0.7); /* Darker shade on hover */
+}
